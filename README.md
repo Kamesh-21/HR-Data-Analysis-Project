@@ -1,24 +1,41 @@
 # HR-Data-Analysis-Project
  
 # Project Overview
-I designed a Power BI dashboard with actionable insights to support the Atliq HR team in enhancing decision-making. The dashboard tracks key HR metrics, including employee data, attendance, sick leave, and work-from-home trends, thereby automating data analysis and saving time.
+I designed a Power BI dashboard with actionable insights to support the Atliq HR team in enhancing decision-making. 
+The dashboard tracks key metrics such as employee data, attendance, sick leave, and work-from-home trends,
+thereby automating data analysis and saving time .
 
-# Steps followed
-Load Data:
-* Import your attendance dataset from a CSV file into Power BI Desktop.
+## Create Visuals:
 
-Transform Data:
-* Clean and organize the data using Power Query Editor.
-Duplicate the query and name it "template."
-Select a specific sheet (e.g., Apr 2022) in the template.
-Use the first row as the header and adjust column names.
+* Utilize cards to display Presence %, Work From Home %, and Sick Leave %.
+* Create table visualizations for Attendance Matrix Overview, Daily Attendance Overview, and Presence %, WFH %, SL % by weekdays.
+* Generate an Area Chart for the day-wise visualization of Presence %, WFH %, and Sick Leave %
 
-Unpivot Dates:
-* Consolidate dates into a single column, excluding "Employee ID" and "Name," using the unpivot option.
+## Measures
+* Office Working Days =  
+VAR totaldays = [count]  
+VAR nonworkingday = CALCULATE([count], Final[Value] IN {"WO", "HO"})  
+RETURN  
+totaldays - nonworkingday  
 
-Format Date Column:
-* Rename the consolidated column as "Date" and convert it to a date format, eliminating text values.
+* Present Days = CALCULATE([count], Final[Value] IN {"P", "WFH"})  
 
-Append query :
-* Append all sheet in One sheet and named it "Final" 
-Load "Final" sheet into Power bi.
+* Attendance % = DIVIDE([Present Days], [Office Working Days])  
+
+* WFH Count = SUM(Final[WFH Count])  
+
+* WFH % = DIVIDE([WFH Count], [Office Working Days])  
+
+* SL Count = SUM(Final[SL Count])  
+
+* SL % = DIVIDE([SL Count], [Office Working Days])  
+
+* Count = COUNT(Final[Value])  
+
+* HFWH Count = CALCULATE([Count], Final[Value] = "HWFH")  
+
+
+## Dashboard Overview
+![Dashboard](
+
+
