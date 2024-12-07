@@ -36,7 +36,7 @@ totaldays - nonworkingday
 
 
 ## Dashboard Overview
-![Dashboard](https://github.com/Kamesh-21/HR-Data-Analysis-Project/blob/main/Screenshot%20(536).png)
+![Dashboard](https://github.com/Kamesh-21/HR-Data-Analysis-Project/blob/main/Image.png)
 
 This dashboard will help to reduce Hr manual effort and save 3-4 hours of daily work
 
