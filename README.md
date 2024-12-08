@@ -1,6 +1,7 @@
 # HR-Data-Analysis-Project
+## Dashboard Link https://app.powerbi.com/view?r=eyJrIjoiMzRkOWMxYzMtNjA2MS00N2ZmLWJkMTUtODc1YWQwNWI3ZDcxIiwidCI6Ijg0OWE3OTUzLTQxNDktNDE4Yy05NDUyLTVlZjJiMDJhNmZlMCJ9
  
-# Project Overview
+## Project Overview
 I designed a Power BI dashboard with actionable insights to support the Atliq HR team in enhancing decision-making. 
 The dashboard tracks key metrics such as employee data, attendance, sick leave, and work-from-home trends,
 thereby automating data analysis and saving time .
@@ -38,6 +39,7 @@ totaldays - nonworkingday
 ## Dashboard Overview
 ![Dashboard](https://github.com/Kamesh-21/HR-Data-Analysis-Project/blob/main/Image.png)
 
-This dashboard will help to reduce Hr manual effort and save 3-4 hours of daily work
+## Result :
+* This dashboard will help to reduce Hr manual effort and save 3-4 hours of daily work
 
 
