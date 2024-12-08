@@ -1,5 +1,6 @@
 # HR-Data-Analysis-Project
-## Dashboard Link https://app.powerbi.com/view?r=eyJrIjoiMzRkOWMxYzMtNjA2MS00N2ZmLWJkMTUtODc1YWQwNWI3ZDcxIiwidCI6Ijg0OWE3OTUzLTQxNDktNDE4Yy05NDUyLTVlZjJiMDJhNmZlMCJ9
+## Dashboard Link 
+https://app.powerbi.com/view?r=eyJrIjoiMzRkOWMxYzMtNjA2MS00N2ZmLWJkMTUtODc1YWQwNWI3ZDcxIiwidCI6Ijg0OWE3OTUzLTQxNDktNDE4Yy05NDUyLTVlZjJiMDJhNmZlMCJ9
  
 ## Project Overview
 I designed a Power BI dashboard with actionable insights to support the Atliq HR team in enhancing decision-making. 
